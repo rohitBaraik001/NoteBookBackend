@@ -24,6 +24,7 @@ app.use('/api/auth.js', router);
 app.use('/api/notes.js', nrouter);
 const corsOptions ={
     origin:'*', 
+    methods:"GET POST DELETE PATCH HEAD",
     credentials:true,            //access-control-allow-credentials:true
     optionSuccessStatus:200,
  }
