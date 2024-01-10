@@ -1,6 +1,6 @@
 const mongoose = require("mongoose")
 
-mongoose.connect('mongodb+srv://rohitdaan20:yKuLk80Xrh8KiTBTFinish@inotebook-db.cqmaqek.mongodb.net/?retryWrites=true&w=majority',{
+mongoose.connect('mongodb+srv://rohitdaan20:fvWDCryEGFkqPRrp@rohit.rbcfbt2.mongodb.net/?retryWrites=true&w=majority',{
     useNewUrlParser: true,
     useUnifiedTopology: true
 }).then(()=>{
@@ -8,3 +8,4 @@ mongoose.connect('mongodb+srv://rohitdaan20:yKuLk80Xrh8KiTBTFinish@inotebook-db.
 }).catch(()=>{
     console.log("connection with mongodb failed...")
 })
+
